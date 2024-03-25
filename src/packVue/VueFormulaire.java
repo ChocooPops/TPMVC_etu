@@ -48,8 +48,6 @@ public class VueFormulaire extends AbstractVue {
         new EcouteurAjout(); 
         new EcouteurSuppr(); 
         new EcouteurModif(); 
-        
-        this.txtNom.setPreferredSize(new Dimension(150, 50));
     }
 
     private void initFrame() {
